@@ -1,10 +1,55 @@
-body{
-    background-color:#fff;
+html, body{
+    height: 100%;
+    margin: 0;
+    font-family: monospace;
 }
 
 
 .container{
-    height: 878px;
-  width: 834px;
-background-color: #f0f0f0;
+   height: 100%;
+   width: 834px;
+   background-color: #f0f0f0;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+.right{
+    float: right;
+    margin: 12px;
+    color:#a03994;
+}
+.big{
+    font-size: 30px;
+    color:#a03994;
+      
+}
+
+.title{
+    padding: 5px;
+    width: 75%;
+    display: block;
+   margin-left: auto;
+   margin-right: auto;
+   height: 90%;
+}
+
+.main{
+    float:left;
+    width:60%;
+}
+
+.subscribe{
+    float: right;
+    background: #d6d6d6;
+    width: 40%;
+    height: 90%;
+}
+
+.wifi-img{
+    width:30px;
+    height:30px;
+    background: #fff;
+    padding: 3px;
+    border-radius: 4px;
 }
